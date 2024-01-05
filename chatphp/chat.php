@@ -40,14 +40,14 @@ $connection->close();
         }
 
         .container {
-            max-width: 600px;
+            max-width: 650px;
             margin-top: 20px;
         }
 
         .chat-box {
             background-color: #fff;
             border-radius: 10px;
-            height: 90%;
+            height: 91%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             margin-bottom: 15px;
@@ -72,7 +72,7 @@ $connection->close();
             left: 0;
             width: 100%;
             padding: 10px;
-            background-color: #fff;
+            background-color: #ffff;
             border-top: 1px solid #ccc;
             box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -135,7 +135,7 @@ $connection->close();
 <div class="chat-input-group">
     <form id="message-form" method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>" class="d-flex">
         <input type="text" name="message" class="form-control chat-input" autocomplete="off" required>
-        <button type="submit" class="btn btn-success chat-send">Gönder</button>
+        <button type="submit" class="btn btn-success chat-send">Send</button>
     </form>
 </div>
 
